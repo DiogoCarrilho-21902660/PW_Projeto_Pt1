@@ -11,7 +11,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  
 }
 
 .topnav a {
@@ -81,6 +80,9 @@ color: silver;
 .imgPrincipal{
   width: 100%;
   height: auto;
+}
+.imgPrincipal1{
+  width: 50%;
 }
 iframe{
   max-width: 100%;
@@ -156,6 +158,9 @@ details{
   align-self: auto;
   order: 0;
 }
+.player {
+  width: 69%;
+ }​
 
 .flex-items:nth-child(3) {
   display: block;
@@ -242,6 +247,21 @@ p{
   width: 99%;
   height: 99%;  
 }
+
+.container1 {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-block {
+  position: relative;
+  bottom: 150px;
+  left: 30px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /*animação numero 1*/
 .element-animation{
   animation: animationFrames linear 2s;

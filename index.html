@@ -45,24 +45,23 @@
                  <div class="container">
                  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/bkrwUzWeACg"></iframe>
                  </div>
-                  <h2>Síntese da história</h2><br><br>
+                 <!--Autoplay nao funciona no Google Chrome devido a definições de segurança-->
+                 <h2 class="corArticle">SoundTrack</h2>
+                                        <audio controls loop autoplay id="musica" class="player">
+                                          <source src="audio/musica.ogg" type="audio/ogg">
+                                              <source src="audio/musica.mp3" type="audio/mpeg">
+                                      </audio>
+                                      <script>
+                                          var audio = document.getElementById("musica");
+                                          audio.volume = 0.01;
+                                      </script>  
+                  <h2>Síntese da história</h2>
                   <p>A nova geração da antiga série Wolfenstein leva os jogadores a um mundo paralelo da segunda guerra mundial onde os nazis terão ganho,
                        com o trunfo de terem obtido uma vantagem tecnológica absoluta sobre os aliados e demais fações.<br>
-                     Wolfenstein II: The new Colossus Será o segundo jogo desta nova reinvenção da série que continua a história onde esta foi deixada depois do primeiro jogo após o assassinato do General Deathshead.<br>
+                       Wolfenstein II: The new Colossus Será o segundo jogo desta nova reinvenção da série que continua a história onde esta foi deixada depois do primeiro jogo após o assassinato do General Deathshead.<br>
                        Mas desta vez não será na europa nazi deste universo, mas sim nos territórios ocupados dos EUA,
                        onde BJ Blazkowicz (Terror-Billy para os nazis) irá se deparar com os horrores que o final da guerra trouxe e a consequente subjugação e opressão do último país dos aliados a render-se.<br>
-                    </p>
-                  <br><br>  <br><br>  
-                  <p style="text-align: center;">Soundtrack</p>
-                  <audio controls loop autoplay id="musica">
-                    <source src="audio/musica.ogg" type="audio/ogg">
-                        <source src="audio/musica.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                </audio>
-                <script>
-                    var audio = document.getElementById("musica");
-                    audio.volume = 0.01;
-                </script>
+                    </p>                
                 </center>
             </div>
 
@@ -108,6 +107,7 @@
                                                 </text>
                                             </a>
                                         </svg>
+                                        
 
             </center>
             </div>     
@@ -118,7 +118,7 @@
                         <figure><img src="images/ignscore.png" title="ignscore" class="element-animation2"></figure><br><br><br><br><br><br>
     
                     <figure><img src="images/meta.png" title="meta" class="element-animation"><details><a id="link" href=https://www.metacritic.com/game/pc/wolfenstein-ii-the-new-colossus>Link Review</a></details></figure>
-                        <figure><img src="images/metascore.png" title="ignscore" class="element-animation2"></figure><br><br>                 
+                        <figure><img src="images/metascore.png" title="ignscore" class="element-animation2"></figure><br><br>               
                 </div>
  
         </div>
