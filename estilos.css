@@ -115,9 +115,7 @@ details{
   font-family: 'Roboto', sans-serif;
 }
 
-p::first-letter{
-  font-size: 120%;
-}
+
 
 caption[target=_cor]{
   background-color: lightgray;
