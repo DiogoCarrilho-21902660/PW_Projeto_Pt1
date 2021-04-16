@@ -74,9 +74,11 @@ color: silver;
       'footer footer footer footer footer';
   }
 }
+
 #img{
   border-style: solid;
 }
+
 .imgPrincipal{
   width: 100%;
   height: auto;
@@ -93,9 +95,11 @@ iframe{
 details{
   color: silver;
 }
+
 #link:link{
   color: rgb(255, 255, 255)
 }
+
 #link:visited{
   color: silver
 }
@@ -108,8 +112,16 @@ details{
 
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
+p::first-letter{
+  font-size: 120%;
+}
+
+caption[target=_cor]{
+  background-color: lightgray;
+}
 
 .column {
   float: left;
@@ -125,12 +137,12 @@ details{
   clear: both;
 }
 
-
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
+
 /*flexbox imagens*/
 .flex-container {
   display: flex;
@@ -205,16 +217,15 @@ details{
   font-size: xx-large; 
   background-color:rgb(182, 30, 30);
 }
+
 .nossa-label{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   font-size: xx-large; 
   background-color:rgb(182, 30, 30);
 }
 
 h2{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   font-size: xx-large; 
   background-color:rgb(182, 30, 30);
 }
@@ -222,13 +233,10 @@ h2{
 p{
   text-align: justify;
   text-justify: inter-word;
-  font-family: 'Roboto', sans-serif;
   font-size: 1.2vw;
 }
 
-.backgroundTabela{
-  background-color: lightgrey;
-}
+
 
 .container {
   position: relative;
