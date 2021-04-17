@@ -8,6 +8,8 @@
         <meta name="description" content="Release Date: 27 de outubro de 2017">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="images/iconwolf.png"/>
         <style>
             .parallax {
@@ -26,7 +28,10 @@
         <div class="grid-container">
             <div class="header">
                 <header>
-                    <center><h1>Wolfenstein 2</h1>
+                    <center>
+                        <h1>Wolfenstein 2</h1>
+                        <h1 style="font-size:1.5vw">"The New Colossus"</h1>
+                    </center>
                 </header>
             </div>
             <div class="nav">
@@ -41,7 +46,7 @@
                                                 <a id="link" href="tabela.html"><i style="font-size:20px;color:red;" class="material-icons">&#xe87f;</i>Acerca do Website</a>
                     </div>
                 </nav>               
-        </div>
+            </div>
             <div class=" main">
                 <main>
                     <form method="POST" action="mailto:nome.apelido@gmail.com">
@@ -57,7 +62,7 @@
                         </fieldset> <br><br>
                      <center><h2>Quiz sobre o jogo a saga e este website</h2></center>
                          <fieldset class="quizz">
-                                 <p>Quem desenvolveu o jogo?</p>
+                                 <p class="textoTamanho">Quem desenvolveu o jogo?</p>
                                      <input type="radio" id="R1" name="RL" value="Bethesda"></span>     
                                          <span><label for="R1">Bethesda</label>
                                              <br><input type="radio" id="R2" name="RL" value="Valve"></span>   
@@ -67,7 +72,7 @@
                                                              <br><input type="radio" id="R4" name="RL" value="Ubisoft"></span> 
                                                                  <span><label for="R4">Ubisoft</label> 
                                  
-                                 <p>E quem o publicou?</p>
+                                 <p class="textoTamanho">E quem o publicou?</p>
                                       <input type="radio" id="R5" name="RL" value="Bethesda"></span>     
                                          <span><label for="R5">Bethesda</label>
                                              <br><input type="radio" id="R6" name="RL" value="Valve"></span>   
@@ -78,7 +83,7 @@
                                                                  <span><label for="R8">Ubisoft</label> 
                                                                      <br>  
      
-                                 <p>Em que ano foi publicado? </p>
+                                 <p class="textoTamanho">Em que ano foi publicado? </p>
                                      <label for="AnoPublicacao"></label>
                                          <input type="number" id="Campeonatos" name="Campeonatos" min="0" max="9999" step="1" >
                                          <br> <br> <br>
@@ -92,7 +97,7 @@
                                                      <label for="RC3">2014</label></span>
                                                      <br> <br> 
      
-                             <p>Quantos jogo em toda a saga existem até agora?</p>
+                             <p class="textoTamanho">Quantos jogo em toda a saga existem até agora?</p>
                                  <input type="radio" id="R9" name="RL" value="2"></span>     
                                      <span><label for="R9">2</label>
                                          <br><input type="radio" id="R10" name="RL" value="9"></span>   
@@ -103,7 +108,7 @@
                                                              <span><label for="R12">13</label> 
                                                                  <br> <br> 
                                    
-                                 <p>Que prémio o "Wolfenstein 2-The New Colossus" ganhou em 2017?</p>
+                                 <p class="textoTamanho">Que prémio o "Wolfenstein 2-The New Colossus" ganhou em 2017?</p>
                                      <img src="images/award.png" alt="Prémio"><br>
                                          <label for="R13"></label>
                                              <input type="text" id="R13" name="R13" placeholder="Resposta" size="40" maxlength="30"> 
@@ -117,9 +122,9 @@
                                              <br> <br>
      
                              <legend>Usamos o esquema de cores que se segue em baixo, se achar que existem outras opções melhores ecolha um esquema diferente e envie a sua sugestão.</legend>
-                                 <p>Primária:</p><input type="color" id="favcolor" name="favcolor" value="#2c2a2a">
-                                     <p>Secundária:</p><input type="color" id="favcolor" name="favcolor" value="#b52121">
-                                         <p>Texto:</p><input type="color" id="favcolor" name="favcolor" value="#C0C0C0">
+                                 <p class="textoTamanho">Primária:</p><input type="color" id="favcolor" name="favcolor" value="#2c2a2a">
+                                     <p class="textoTamanho">Secundária:</p><input type="color" id="favcolor" name="favcolor" value="#b52121">
+                                         <p class="textoTamanho">Texto:</p><input type="color" id="favcolor" name="favcolor" value="#C0C0C0">
                                  <br><br><br>     
                          </fieldset>
                          <br>
@@ -127,23 +132,23 @@
                  <fieldset>                  
                      
      
-                         <p>De 0 a 100, quanto gostou deste jogo?</p>
+                         <p class="textoTamanho">De 0 a 100, quanto gostou deste jogo?</p>
                          <input type="range" id="range" name="range" min="0" max="100" onchange="output2.value=this.value">
                              <label>Valor:</label>
                                  <output name="output2"><output class="value"></output></output>%
                                  <br> <br>
      
-                     <br><p>Em  termos de jogabilidade o que achou?</p>
+                     <br><p class="textoTamanho">Em  termos de jogabilidade o que achou?</p>
                          <textarea name="message" rows="25" cols="120">Resposta</textarea>
                                  <br> <br>
      
                      <legend>Deixe aqui as suas opiniões.</legend><br>
                          <textarea name="message" rows="25" cols="120">Resposta</textarea>
-                         <p>Qualquer sugestão mais complexa submeta via ficheiro .txt</p>
+                         <p class="textoTamanho">Qualquer sugestão mais complexa submeta via ficheiro .txt</p>
                                  <input type="file" id="files" name="files" multiple> 
                          <br> <br>  
                          
-                         <p>Recomendariam este jogo aos seus amigos?</p>
+                         <p class="textoTamanho">Recomendariam este jogo aos seus amigos?</p>
                          <input type="radio" id="R14" name="RL" value="Sim"></span>     
                              <span><label for="R14">Sim</label>
                                  <br><input type="radio" id="R15" name="RL" value="Não"></span>   
